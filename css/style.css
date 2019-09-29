@@ -549,6 +549,18 @@ table {
 	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
 	/* Opera */
 }
+
+#cfp{
+	padding-right:0px;
+}
+
+.row{
+	margin-right: 0px;
+}
+
+.container-fluid{
+	padding-right:0px;
+}
 /* ==========================================================================Intro========================================================================== */
 .intro p {
 	margin:50px 0 0;
