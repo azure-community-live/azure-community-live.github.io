@@ -120,24 +120,24 @@
                   <p>All Meetups are live streamed on Youtube. Afterwards al videos are stored on Ygitoutube to be viewed in your own time if the live event time didn't fit you.</p><!-- Description -->
                 </div>
               </a>
-              <!-- Meetup -->
-              <a href="https://meetup.com/">
-                <div class="col-md-4 wp2 item delay-05s">
-                  <div class="icon">
-                    <i class="fab fa-meetup"></i><!-- Icon -->
-                  </div>
-                  <h2>Meetup</h2><!-- Title -->
-                  <p>We use Meetup.com for planning future events and people can add them to their agendas.</p><!-- Description -->
-                </div>
-              </a>
               <!-- Twitter -->
               <a href="https://twitter.com/azurecomlive">
-                <div class="col-md-4 wp2 item delay-1s">
+                <div class="col-md-4 wp2 item delay-05s">
                   <div class="icon">
                     <i class="fab fa-twitter"></i><!-- Icon -->
                   </div>
                   <h2>Twitter</h2><!-- Title -->
                   <p>Want to ask us a quick question or want to inform us of something. Ping us on Twitter!</p><!-- Description -->
+                </div>
+              </a>
+              <!-- Mail -->
+              <a href="mailto:contact@azure-community.live">
+                <div class="col-md-4 wp2 item delay-1s">
+                  <div class="icon">
+                    <i class="fas fa-mail-bulk"></i><!-- Icon -->
+                  </div>
+                  <h2>E-Mail</h2><!-- Title -->
+                  <p>Rather just send us an E-mail? We're always open for new suggestions or questions. Contact us! We'll make sure to respond in a timely manner.</p><!-- Description -->
                 </div>
               </a>
             </div>
@@ -146,13 +146,14 @@
         </div>
       </div>
     </section>
-
+    
     <section>
-        <div class="container-fluid" id="cfp">
-          <div class="row color-bg">
-            <div class="col-md-6 nopadding subscribe text-center">
-              <h1><i class="fas fa-bullhorn"></i><span>CALL FOR SPEAKERS</span></h1><!-- Heading -->
-              <p>We always welcome speakers from all over the world. Have an interesting topic related to Azure? Let us know and we'll plan something together!</p>
+      <div class="container-fluid" id="cfp">
+        <div class="row color-bg">
+          <div class="col-md-6 nopadding subscribe text-center">
+            <h1><i class="fas fa-bullhorn"></i><span>CALL FOR SPEAKERS</span></h1><!-- Heading -->
+            <p>We always welcome speakers from all over the world. Have an interesting topic related to Azure? Let us know and we'll plan something together! 
+              Azure Community Live is an event for EVERYONE! It doesn't matter if you are a first time speaker, minority or guru! We'll make sure we that there is room for everyone!</p>
               <form action="https://forms.gle/6Dmv7UVok68jm2ZF7" method="GET">
                 <input type="submit" value="Apply"><!-- Submit Button -->
               </form>   
@@ -163,150 +164,202 @@
           </div>
         </div>
       </section>
-    
-    <section class="swag text-center" id="meetups">
-      <div class="container">
-        <!-- Headline -->
-        <div class="row">
-          <h1 class="arrow">
-            RECENT <span>MEETUPS</span>
-          </h1>
-        </div>
-      </div>
-    </section>
-    
-    
-    <div class="container-fluid">
-      <div class="row">
-          <div class="col-md-6 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
+      
+      <!-- ==========================
+        BLOG SECTION 
+        =========================== -->
+        <section class="text-center section-padding" id="blog">
+          <div class="container">
+            <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Azure Community Live <span>Hosts</span></h1>
+              </div>
+            </div><br><br>
+          
+            <!-- Blog Entry 1 -->
+            <div class="col-md-4 wp4">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <a href="https://twitter.com/geertvdc"><img src="img/geert.jpg" class="grayscale" alt="Geert van der Cruijsen"></a>
+                </div>
+              </div>
+              <br>
+              <h2>Geert van der Cruijsen</h2><!-- Headline -->
+              <h3>EMEA</h3>
+              <p>Geert van der Cruijsen is a cloud consultant from the Netherlands. He'll be hosting the live casts in the european evening timeslot (18:00 - 22:00) CET</p><!-- Description-->
+            </div>
+            <!-- Blog Entry 2 -->
+            <div class="col-md-4 wp4 delay-05s">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <a href="https://twitter.com/EstebanFGarcia"><img src="img/esteban.jpg" class="grayscale" alt="Esteban Garcia"></a>
+                </div>
+              </div>
+              <br>
+              <h2>Esteban Garcia</h2><!-- Headline -->
+              <h3>AMERICAS</h3>
+              <p>Esteban is an Azure expert from the USA. He'll be hosting the live meetups in the westcoast/eastcoast evening timeslots (TBD)</p><!-- Description -->
+            </div>
+            <!-- Blog Entry 3 -->
+            <div class="col-md-4 wp4 delay-1s">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <a href="https://twitter.com/larsklint"></a><img src="img/lars.jpg"  class="grayscale" alt="Lars Klint"></a>
+                </div>
+              </div>
+              <br>
+              <h2>Lars Klint</h2><!-- Headline -->
+              <h3>APAC</h3>
+              <p>Lars Klint is a Danish / Australian Azure guru living in Australia. He'll be covering the meetings in the Asain and Pacific region. Timeslots (TBD)</p><!-- Description-->
+            </div>
           </div>
+        </section>
+        
+        
+        <section class="swag text-center" id="meetups">
+          <div class="container">
+            <!-- Headline -->
+            <div class="row">
+              <h1 class="arrow">
+                RECENT <span>MEETUPS</span>
+              </h1>
+            </div>
+          </div>
+        </section>
+        
+        
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 nopadding features-intro-img">
+              <div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
+            </div>
+            <div class="col-md-6 about-text">
+              <h6>MEETUP 1</h6><!-- headline-->
+              <p>COMING SOON!!!</p><br><!-- About Text 1 -->
+              <a href="index.html#" class="weight-outline-btn">COMING SOON</a><!-- read more button  -->			
+            </div>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-md-6 about-text">
-            <h6>MEETUP 1</h6><!-- headline-->
-            <p>COMING SOON!!!</p><br><!-- About Text 1 -->
-            <a href="index.html#" class="weight-outline-btn">COMING SOON</a><!-- read more button  -->			
+            <h6>MEETUP 2</h6><!-- Headline -->
+            <p>COMING SOON!!!</p><br><!-- About Text 2 -->
+            <a href="index.html#" class="weight-outline-btn">COMING SOON</a>	<!-- read more button  -->				
+          </div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 2 -->
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 about-text">
-          <h6>MEETUP 2</h6><!-- Headline -->
-          <p>COMING SOON!!!</p><br><!-- About Text 2 -->
-          <a href="index.html#" class="weight-outline-btn">COMING SOON</a>	<!-- read more button  -->				
-        </div>
-        <div class="col-md-6 nopadding features-intro-img">
-          <div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 2 -->
-        </div>
-      </div>
-    <div class="spacer-cta text-center color-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="https://www.youtube.com/channel/UC6_5JdeUm2byP55nR2FZHrw" class="outline-btn"><h1><i class="fab fa-youtube"></i></h1>ALL MEETUPS</a>
+        <div class="spacer-cta text-center color-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="https://www.youtube.com/channel/UC6_5JdeUm2byP55nR2FZHrw" class="outline-btn"><h1><i class="fab fa-youtube"></i></h1>ALL MEETUPS</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    
-    <!-- ========================== CODE OF CONDUCT SECTION  =========================== -->
-    <section class="intro text-center section-padding" id="codeofconduct">
-      <div class="container">
-        <!-- WELCOME TEXT -->
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 wp1">
-            <h1 class="arrow">Code of Conduct<!-- Headline --></h1>
-            <p>All attendees, speakers, sponsors and volunteers at our meetups / live streams are required to agree with the following code of conduct. Organisers will enforce this code throughout the events. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
-            <br/>
-            <h3>The Quick Version</h3>
-            <p>Our meetup / user group is dedicated to providing a harassment-free experience for everyone, 
-              regardless of gender, gender identity and expression, age, sexual orientation, disability, 
-              physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. 
-              We do not tolerate harassment of participants in any form. 
-              Sexual language and imagery is not appropriate in any talk, workshop, Twitter and other online media. 
-              Participants violating these rules may be sanctioned or expelled from the 
-              meetup at the discretion of the organisers.
-            </p><br/>
-            <h3>The Less Quick Version</h3>
-            <p>
-              Harassment includes offensive verbal comments related to gender, gender
-              identity and expression, age, sexual orientation, disability, physical
-              appearance, body size, race, ethnicity, religion, technology choices,
-              sexual images in public spaces, deliberate intimidation, stalking,
-              following, harassing photography or recording, sustained disruption of
-              talks or other events, inappropriate physical contact, and unwelcome
-              sexual attention.
-              <br/>
-              Participants asked to stop any harassing behavior are expected to comply
-              immediately.
-              <br/>
-              Sponsors are also subject to the anti-harassment policy. In particular,
-              sponsors should not use sexualised images, activities, or other material.
-              <br/>
-              If a participant engages in harassing behavior, the organisers
-              may take any action they deem appropriate, including warning the offender
-              or expulsion from the meetup.
-              <br/>
-              If you are being harassed, notice that someone else is being harassed, or
-              have any other concerns, please contact one of the organisers
-              immediately.
-              <br/>
-              We expect participants to follow these rules at online meetups and related social events.
-            </p>
+        
+        <!-- ========================== CODE OF CONDUCT SECTION  =========================== -->
+        <section class="intro text-center section-padding" id="codeofconduct">
+          <div class="container">
+            <!-- WELCOME TEXT -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">Code of Conduct<!-- Headline --></h1>
+                <p>All attendees, speakers, sponsors and volunteers at our meetups / live streams are required to agree with the following code of conduct. Organisers will enforce this code throughout the events. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
+                <br/>
+                <h3>The Quick Version</h3>
+                <p>Our meetup / user group is dedicated to providing a harassment-free experience for everyone, 
+                  regardless of gender, gender identity and expression, age, sexual orientation, disability, 
+                  physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. 
+                  We do not tolerate harassment of participants in any form. 
+                  Sexual language and imagery is not appropriate in any talk, workshop, Twitter and other online media. 
+                  Participants violating these rules may be sanctioned or expelled from the 
+                  meetup at the discretion of the organisers.
+                </p><br/>
+                <h3>The Less Quick Version</h3>
+                <p>
+                  Harassment includes offensive verbal comments related to gender, gender
+                  identity and expression, age, sexual orientation, disability, physical
+                  appearance, body size, race, ethnicity, religion, technology choices,
+                  sexual images in public spaces, deliberate intimidation, stalking,
+                  following, harassing photography or recording, sustained disruption of
+                  talks or other events, inappropriate physical contact, and unwelcome
+                  sexual attention.
+                  <br/>
+                  Participants asked to stop any harassing behavior are expected to comply
+                  immediately.
+                  <br/>
+                  Sponsors are also subject to the anti-harassment policy. In particular,
+                  sponsors should not use sexualised images, activities, or other material.
+                  <br/>
+                  If a participant engages in harassing behavior, the organisers
+                  may take any action they deem appropriate, including warning the offender
+                  or expulsion from the meetup.
+                  <br/>
+                  If you are being harassed, notice that someone else is being harassed, or
+                  have any other concerns, please contact one of the organisers
+                  immediately.
+                  <br/>
+                  We expect participants to follow these rules at online meetups and related social events.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    
-    
-    
-    
-    
-    <!-- ========================== FOOTER SECTION =========================== -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p>All Rights Reserved. &copy; 2019 <a href="https://azure-community.live">Azure Community Live</a></p>
+        </section>
+        
+        
+        
+        
+        
+        <!-- ========================== FOOTER SECTION =========================== -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>All Rights Reserved. &copy; 2019 <a href="https://azure-community.live">Azure Community Live</a></p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </footer>
-    <!-- ========================== FOOTER SECTION END =========================== -->		
-    
-    
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- SmoothScroll -->           
-    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- classie.js -->
-    <script src="js/classie.js"></script>
-    <!-- FlexSlider -->
-    <script src="assets/flexslider/jquery.flexslider.js"></script>
-    <!-- Modernizr -->
-    <script src="js/modernizr.js"></script>
-    <!-- Text Rotator -->
-    <script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-    <!-- Lightbox.js -->
-    <script src="assets/lightbox/js/lightbox.min.js"></script>
-    <!-- Google Maps --> 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
-    <!-- Theme JavaScript Core -->
-    <script src="js/main.js"></script>
-    <script src="js/script.js"></script>
-    
-    
-    <!-- TEXT ROTATOR SETTINGS -->
-    <script type="text/javascript">
-      $(".rotate").textrotator({
-        animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-        separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-        speed: 2000 // How many milliseconds until the next word show.
-      });
-    </script>
-    
-  </body>
-  </html>
+        </footer>
+        <!-- ========================== FOOTER SECTION END =========================== -->		
+        
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- SmoothScroll -->           
+        <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/waypoints.min.js"></script>
+        <!-- classie.js -->
+        <script src="js/classie.js"></script>
+        <!-- FlexSlider -->
+        <script src="assets/flexslider/jquery.flexslider.js"></script>
+        <!-- Modernizr -->
+        <script src="js/modernizr.js"></script>
+        <!-- Text Rotator -->
+        <script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+        <!-- Lightbox.js -->
+        <script src="assets/lightbox/js/lightbox.min.js"></script>
+        <!-- Google Maps --> 
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+        <!-- Theme JavaScript Core -->
+        <script src="js/main.js"></script>
+        <script src="js/script.js"></script>
+        
+        
+        <!-- TEXT ROTATOR SETTINGS -->
+        <script type="text/javascript">
+          $(".rotate").textrotator({
+            animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+            separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+            speed: 2000 // How many milliseconds until the next word show.
+          });
+        </script>
+        
+      </body>
+      </html>
